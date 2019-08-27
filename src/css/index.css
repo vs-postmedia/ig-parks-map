@@ -1,0 +1,63 @@
+@import './normalize.css';
+@import './fonts.css';
+@import './colors.css';
+
+
+/* NORMALIZE */
+body {
+	margin: 0;
+	padding: 0.25rem;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+figure {
+	margin-block-start: 0;
+	margin-block-end: 0;
+	margin-inline-start: 0;
+	margin-inline-end: 0;
+}
+ul {
+	list-style-type: none; 
+	margin:0; 
+	padding:0; 
+}
+ 
+/* POSTMEDIA STYLES */
+.App h1 {
+	font-family: Shift-BoldItalic, serif;
+	font-size: 2rem;
+	margin-bottom: 0.5rem;
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.App h2 {
+	font-family: BentonSansCond-Bold, serif;
+	margin: 1px 0;
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.App h3 {
+	font-family: BentonSansCond-Bold, serif;
+	margin-bottom: 7px;
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.App h4 {
+	font-family: BentonSansCond-Regular, serif;
+	font-size: 0.8rem;
+	margin-bottom: 7px;
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.App p {
+	font-family: BentonSansCond-Regular, Helvetica, sans-serif;
+	line-height: 1.3rem;
+	margin-bottom: 7px;
+}
+
+
+@media only screen and (min-width: 500px) {
+    /* Style adjustments for viewports that meet the condition */
+}
