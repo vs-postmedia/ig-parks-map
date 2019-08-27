@@ -1,12 +1,16 @@
 {
   "name": "react-template",
-  "homepage": "https://vs-postmedia.github.io/react-template/",
+  "homepage": "https://vs-postmedia.github.io/ig-parks-map/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "gh-pages": "^2.1.1",
+    "leaflet": "^1.5.1",
+    "mapbox-gl-leaflet": "0.0.8",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-leaflet": "^2.4.0",
+    "react-map-gl": "^5.0.10",
     "react-scripts": "3.0.1"
   },
   "scripts": {
