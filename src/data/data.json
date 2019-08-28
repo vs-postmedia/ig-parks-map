@@ -1,0 +1,15 @@
+[
+  {
+    "address": "1675 VENABLES ST.",
+    "id": 11,
+    "name": "East Van Brewing",
+    "type": "brewery",
+    "group": "east",
+    "lon": -123.0711,
+    "lat": 49.2768,
+    "latlon": "49.276784,-123.071102",
+    "order": 9,
+    "rating": 72,
+    "img_title": "east-van.jpg"
+  }
+]

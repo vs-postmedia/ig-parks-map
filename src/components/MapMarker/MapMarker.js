@@ -6,10 +6,10 @@ import L from 'leaflet';
 import ReactDOMServer from 'react-dom/server';
 import NumberIcon from '../NumberIcon/NumberIcon';
 import { Marker } from 'react-leaflet';
-import BeerTooltip from '../BeerTooltip/BeerTooltip';
-import './BreweryMarker.css';
+import MapTooltip from '../MapTooltip/MapTooltip';
+import './MapMarker.css';
 
-const BreweryMarker = (props) => {
+const MapMarker = (props) => {
 	const data = props.data;
 
 	// adjust xposition depending on number of digits
@@ -18,7 +18,7 @@ const BreweryMarker = (props) => {
 	const customIcon = <NumberIcon 
 		number={data.order} 
 		className={data.group} 
-		size='28' 
+		size={data.radius} 
 		xpos={xpos} ypos='69%'/>
 
 	const numberIcon = new L.divIcon({
@@ -30,10 +30,10 @@ const BreweryMarker = (props) => {
 		<Marker
 			position={[data.lat, data.lon]}
 			icon={numberIcon}>
-			<BeerTooltip data={data}></BeerTooltip>
+			<MapTooltip data={data}></MapTooltip>
          </Marker>
 	);
 }
 
-export default BreweryMarker;
+export default MapMarker;
 

@@ -1,0 +1,34 @@
+.tooltip header {
+	display: flex;
+}
+.tooltip header .name {
+	flex-grow: 2;
+}
+.tooltip header .rating-background {
+	border-radius: 50%;
+	height: 26px;
+	width: 26px;
+}
+.tooltip header .rating {
+	color: #FFF;
+	margin-block-start: 0;
+	margin-block-end: 0;
+	transform: translate(3px, 0px);
+}
+.tooltip header .rating-background.green {
+	background-color: var(--green01);
+}
+.tooltip header .rating-background.yellow {
+	background-color: var(--yellow01);
+}
+.tooltip header .rating-background.red {
+	background-color: var(--red01);
+}
+.tooltip .tooltip-image {
+	max-width: 250px;
+}
+
+.tooltip .footer {
+	color: var(--grey02);
+	margin-bottom: 0;
+}

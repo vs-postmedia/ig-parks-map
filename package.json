@@ -1,6 +1,6 @@
 {
-  "name": "react-template",
-  "homepage": "https://vs-postmedia.github.io/ig-parks-map/",
+  "name": "react-leaftlet-gl-template",
+  "homepage": "https://vs-postmedia.github.io/leaflet-gl-template/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
