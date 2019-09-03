@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/instagram-parks-map/precache-manifest.1dcf93523b9aa0b7083c7efb796464a9.js"
+  "/instagram-parks-map/precache-manifest.ea686dfac462b8e07f685af3a0ec46af.js"
 );
 
 self.addEventListener('message', (event) => {
