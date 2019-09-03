@@ -9,7 +9,8 @@ const MapTooltip = (props) => {
 	const images = require.context('../../images', true);
 	// set background colour of rating based on rating value
 	const className = setBackgroundColor(data.rating);
-	
+	const rValue = 'strong'
+	console.log(data)
 	// set tooltip image
 	if (data.image) {
 		img = <img src={images(`./${data.image}`)} 
@@ -57,3 +58,9 @@ function numberWithCommas(x) {
 }
 
 export default MapTooltip;
+
+
+/*
+<p className="tooltip-copy">{`There is a ${rValue} correlation between the number of “likes” for the hashtag #${data.hashtag} and attendance at ${data.park_name.replace(/ Park/, '')}.`}</p>
+
+			*/

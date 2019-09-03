@@ -10,9 +10,10 @@ const params = new URLSearchParams(window.location.search);
 function App() {
 	return (
 	  	<div className="App">
-	  		<h1>Southwest B.C.’s most Instagrammed parks</h1>
+	  		<h1>B.C.’s most Instagrammed parks</h1>
+	  		<p className="subhead">Circles are sized by the rate of “likes” received on Instagram per 1,000 park visits in 2018.</p>
 	  		<Map params={params}></Map>
-	  		<p className="footer">Note: Parks were selected based on location and a minumium number of visitors per year. Blackcomb, Cypress and Goldstream parks were excluded because 2018 attendance figures were not available.</p>
+	  		<p className="footer">Note: Parks were selected based on location and a minumium number of visitors per year. Blackcomb and Cypress parks were excluded because of issues with attendance data for 2018.</p>
 	  	</div>
 	);
 }
