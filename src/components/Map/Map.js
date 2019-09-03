@@ -18,7 +18,7 @@ export class Map extends Component {
 	}
 
 	map_defaults = {
-		lat: 49.66,
+		lat: 49.81,
 		lon: -122.952182,
 		maxZoom: 18,
 		minZoom: 12,

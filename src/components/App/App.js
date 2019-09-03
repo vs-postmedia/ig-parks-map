@@ -10,9 +10,9 @@ const params = new URLSearchParams(window.location.search);
 function App() {
 	return (
 	  	<div className="App">
-	  		<h1>React Leaflet GL template</h1>
+	  		<h1>Southwest B.C.’s most Instagrammed parks</h1>
 	  		<Map params={params}></Map>
-	  		<p className="footer">Note: Parks were selected based on location and a minumium number of visitors per year. Blackcomb, Cypress and Goldstream were excluded because 2018 attendance figures were not available.</p>
+	  		<p className="footer">Note: Parks were selected based on location and a minumium number of visitors per year. Blackcomb, Cypress and Goldstream parks were excluded because 2018 attendance figures were not available.</p>
 	  	</div>
 	);
 }
