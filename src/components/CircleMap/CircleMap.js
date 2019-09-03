@@ -19,12 +19,12 @@ export class CircleMap extends Component {
 				<MapboxGLLayer
 					accessToken={MAPBOX_TOKEN}
 					attribution={this.props.attribution}
-					style={this.props.style}/>
+					style={this.props.style} />
 
 					{
 						this.props.points.map(d => {
 							return (
-								<MapMarker data={d} key={d.park}></MapMarker>
+								<MapMarker data={d} key={d.hashtag}></MapMarker>
 							)
 						})
 					}

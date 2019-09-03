@@ -1,6 +1,6 @@
 [
     {
-        "park": "E.C. Manning park",
+        "park": "Manning Park",
         "lat": 49.114954,
         "lon": -120.8579777,
         "2010": 1119300,
@@ -63,7 +63,7 @@
         "hashtag_1k": "1.577592578"
     },
     {
-        "park": "Rathtrevor Beach park",
+        "park": "Rathtrevor Beach",
         "lat": 49.3186341,
         "lon": -124.2730281,
         "2010": 425000,
@@ -84,7 +84,7 @@
         "hashtag_1k": "0.1894085814"
     },
     {
-        "park": "Cultus Lake park",
+        "park": "Cultus Lake",
         "lat": 49.0554739,
         "lon": -122.0044197,
         "2010": 557400,
@@ -168,7 +168,7 @@
         "hashtag_1k": "0.262322932"
     },
     {
-        "park": "Alice Lake park",
+        "park": "Alice Lake",
         "lat": 49.7792142,
         "lon": -123.1221021,
         "2010": 273400,
@@ -189,7 +189,7 @@
         "hashtag_1k": "25.63708013"
     },
     {
-        "park": "Murrin",
+        "park": "Murrin park",
         "lat": 49.496966,
         "lon": -123.2371683,
         "2010": 113684,
@@ -210,7 +210,7 @@
         "hashtag_1k": "38.5235816"
     },
     {
-        "park": "Kokanee Creek park",
+        "park": "Kokanee Creek",
         "lat": 49.6043837,
         "lon": -117.12798,
         "2010": 101700,
@@ -231,7 +231,7 @@
         "hashtag_1k": "3.865126444"
     },
     {
-        "park": "Brandywine",
+        "park": "Brandywine Falls",
         "lat": 50.0378506,
         "lon": -123.1239594,
         "2010": 126376,
@@ -252,7 +252,7 @@
         "hashtag_1k": "58.35842891"
     },
     {
-        "park": "Chilliwack Lake park",
+        "park": "Chilliwack Lake",
         "lat": 49.0900328,
         "lon": -121.4582958,
         "2010": 106900,
@@ -273,7 +273,7 @@
         "hashtag_1k": "59.81261426"
     },
     {
-        "park": "Bridal Veil",
+        "park": "Bridal Veil Falls",
         "lat": 49.1815662,
         "lon": -121.7440676,
         "2010": 121216,
@@ -294,7 +294,7 @@
         "hashtag_1k": "0.7001033486"
     },
     {
-        "park": "Joffre Lakes park",
+        "park": "Joffre Lakes",
         "lat": 50.3413367,
         "lon": -122.4783991,
         "2010": 60900,
@@ -315,7 +315,7 @@
         "hashtag_1k": "13.85193133"
     },
     {
-        "park": "Garibaldi park",
+        "park": "Garibaldi",
         "lat": 49.9166667,
         "lon": -122.7521888,
         "2010": 71000,
@@ -337,8 +337,8 @@
     },
     {
         "park": "Narin Falls",
-        "lat": 50.2965196,
-        "lon": -122.8047215,
+        "lat": 50.292061,
+        "lon": -122.819154,
         "2010": 146186,
         "2011": 125455,
         "2012": 146293,
@@ -375,7 +375,7 @@
         "pct_chg_1516": 1635.6,
         "pct_chg_1415": -66.2,
         "hashtag_count": 0,
-        "hashtag_1k": "#N/A"
+        "hashtag_1k": "0"
     },
     {
         "park": "Goldstream",
@@ -388,15 +388,15 @@
         "2014": 534479,
         "2015": 579538,
         "2016": 621148,
-        "2017": null,
-        "2018": null,
+        "2017": 0,
+        "2018": 0,
         "hashtag": "goldstream",
         "pct_chg_1018": 0.4,
         "pct_chg_1617": -100.0,
         "pct_chg_1516": 7.2,
         "pct_chg_1415": 8.4,
         "hashtag_count": 147,
-        "hashtag_1k": "#DIV/0!"
+        "hashtag_1k": "0"
     },
     {
         "park": "Blackcomb Glacier",
@@ -410,17 +410,17 @@
         "2015": 164674,
         "2016": 269282,
         "2017": 158284,
-        "2018": null,
+        "2018": 0,
         "hashtag": "blackcomb",
         "pct_chg_1018": -51.2,
         "pct_chg_1617": -41.2,
         "pct_chg_1516": 63.5,
         "pct_chg_1415": -30.5,
         "hashtag_count": 162752,
-        "hashtag_1k": "#DIV/0!"
+        "hashtag_1k": "0"
     },
     {
-        "park": "Cypress ",
+        "park": "Cypress",
         "lat": 49.4057449,
         "lon": -123.2198101,
         "2010": 1138379,
@@ -431,13 +431,13 @@
         "2015": 929982,
         "2016": 929982,
         "2017": 1712879,
-        "2018": null,
+        "2018": 0,
         "hashtag": "cypressprovincialpark",
         "pct_chg_1018": 50.5,
         "pct_chg_1617": 84.2,
         "pct_chg_1516": 0.0,
         "pct_chg_1415": -34.3,
         "hashtag_count": 2582,
-        "hashtag_1k": "#DIV/0!"
+        "hashtag_1k": "0"
     }
 ]

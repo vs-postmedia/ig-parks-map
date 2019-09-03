@@ -1,17 +1,6 @@
-.downtown {
-	color: var(--blue01);
+.circle {
 	fill: var(--blue01);
-	stroke: white;
-}
-
-.east {
-	color: var(--dark_purple01);
-	fill: var(--dark_purple01);
-	stroke: white;
-}
-
-.main {
-	color: var(--orange01);
-	fill: var(--orange01);
-	stroke: white;
+	opacity: 0.8;
+	stroke: #FFF;
+	stroke-width: 0.25;
 }

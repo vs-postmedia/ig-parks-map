@@ -11,10 +11,10 @@ const MapTooltip = (props) => {
 	const className = setBackgroundColor(data.rating);
 	
 	// set tooltip image
-	if (data.img_title) {
-		img = <img src={images(`./${data.img_title}`)} 
+	if (data.image) {
+		img = <img src={images(`./${data.image}`)} 
 			className='tooltip-image' 
-			alt={`${data.name}`}/>
+			alt={`${data.park_name}`}/>
 	} else {
 		img = null;
 	}
@@ -22,15 +22,18 @@ const MapTooltip = (props) => {
 	return (
 		<Tooltip className='tooltip' opacity='1'>
 			<header>
-				<h2 className='name'>{data.park}</h2>
+				<h2 className='name'>{data.park_name.replace(/ Park/, '')}</h2>
 				<div className={`rating-background ${className}`}>
 					<h2 className='rating'>{data.rating}</h2>
 				</div>
 			</header>
 			{img}
-			<h3>{props.data.address}</h3>
+			<h3>2018 Stats</h3>
+			<p>{`Attendance: ${numberWithCommas(data.attendance)}`}</p>
+			<p>{`Instagram likes per thousand visitors (est.): ${numberWithCommas(Math.ceil(data[data.key] / 100) * 100)}`}</p>
+			
 
-			<p className='grey02 footer'>Ratings from RateBeer.com</p>
+			<p className='grey02 footer'>{`Photo from ${data.img_user_id}, via Instagram`}</p>
 		</Tooltip>
 	);
 }
@@ -48,10 +51,8 @@ function setBackgroundColor(rating) {
 	return className;
 }
 
-function titleCase(str) {
-	return str.toLowerCase().replace(/\w\S*/g, function(t) { 
-		return t.charAt(0).toUpperCase() + t.substr(1).toLowerCase();
-	});
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 
 }
 

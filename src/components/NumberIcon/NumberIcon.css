@@ -1,6 +1,8 @@
 .chart-number {
 	fill: white;
-	font-size: 1.45rem;
-	font-weight: 800;
+	font-family: BentonSansCond-Bold, 'Helvetica Neue', sans-serif;
+	font-size: 2rem;
+	/*font-size: 16px;*/
+	font-weight: 400;
 	stroke: white;
 }

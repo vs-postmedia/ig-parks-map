@@ -24,6 +24,12 @@
 .tooltip header .rating-background.red {
 	background-color: var(--red01);
 }
+
+
+.App .tooltip p {
+	line-height: 1.1rem;
+	margin-bottom: 0;
+}
 .tooltip .tooltip-image {
 	max-width: 250px;
 }

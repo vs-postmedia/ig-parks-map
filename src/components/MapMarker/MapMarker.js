@@ -12,14 +12,17 @@ import './MapMarker.css';
 const MapMarker = (props) => {
 	const data = props.data;
 
-	// adjust xposition depending on number of digits
-	const xpos = data.order > 9 ? '18%' : '35%';
+	// adjust xposition for text depending on number of digits
+	const xpos = data.order > 9 ? '18%' : '50%';
+	const ypos = '69%';
 
 	const customIcon = <NumberIcon 
-		number={data.order} 
-		className={data.group} 
-		size={data.radius} 
-		xpos={xpos} ypos='69%'/>
+		// text={Math.round(data[data.key])}
+		text={data.park_name.replace(/ Park/g, '')}
+		className={data.group || 'circle'} 
+		radius={data.radius}
+		width={'120'} // in px wide enough to let text flow outside circle
+		xpos={xpos} ypos={ypos}/>
 
 	const numberIcon = new L.divIcon({
 		className: 'custom-icon',
