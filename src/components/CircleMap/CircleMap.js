@@ -14,7 +14,9 @@ export class CircleMap extends Component {
 		return (
 			<Map 
 				center={this.props.center} 
-				zoom={this.props.zoom} >
+				maxZoom={this.props.maxZoom}
+				minZoom={this.props.minZoom}
+				zoom={this.props.zoom}>
 		
 				<MapboxGLLayer
 					accessToken={MAPBOX_TOKEN}

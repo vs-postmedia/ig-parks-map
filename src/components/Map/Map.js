@@ -20,8 +20,8 @@ export class Map extends Component {
 	map_defaults = {
 		lat: 49.81,
 		lon: -122.952182,
-		maxZoom: 18,
-		minZoom: 12,
+		maxZoom: 10,
+		minZoom: 6,
 		style: 'mapbox://styles/mapbox/basic-v8',
 		// style: 'mapbox://styles/mapbox/light-v11',
 		zoom: 9
