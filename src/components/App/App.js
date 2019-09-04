@@ -11,7 +11,7 @@ function App() {
 	return (
 	  	<div className="App">
 	  		<h1>B.C.’s most Instagrammed parks</h1>
-	  		<p className="subhead">Circles are sized by the rate of “likes” received on Instagram per 1,000 park visits in 2018.</p>
+	  		<p className="subhead">Circles are sized by the number of “likes” received on Instagram in 2018 per 1,000 park visits.</p>
 	  		<Map params={params}></Map>
 	  		<p className="footer">Note: Parks were selected based on location and a minumium number of visitors per year. Blackcomb and Cypress parks were excluded because of issues with attendance data for 2018.</p>
 	  	</div>

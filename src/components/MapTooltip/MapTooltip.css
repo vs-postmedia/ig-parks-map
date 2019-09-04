@@ -1,3 +1,11 @@
+.tooltip {
+	--tooltip_width: 280px;
+}
+
+.leaflet-tooltip {
+	max-width: var(--tooltip_width);
+	white-space: normal !important;
+}
 .tooltip header {
 	display: flex;
 }
@@ -5,23 +13,22 @@
 	flex-grow: 2;
 }
 .tooltip header .rating-background {
-	border-radius: 50%;
-	height: 26px;
-	width: 26px;
+	border-radius: 5%;
+	height: 25px;
+	padding: 0 3px;
 }
 .tooltip header .rating {
 	color: #FFF;
 	margin-block-start: 0;
 	margin-block-end: 0;
-	transform: translate(3px, 0px);
 }
-.tooltip header .rating-background.green {
+.tooltip header .rating-background.strong {
 	background-color: var(--green01);
 }
-.tooltip header .rating-background.yellow {
+.tooltip header .rating-background.moderate {
 	background-color: var(--yellow01);
 }
-.tooltip header .rating-background.red {
+.tooltip header .rating-background.low\/no {
 	background-color: var(--red01);
 }
 
@@ -31,7 +38,7 @@
 	margin-bottom: 0;
 }
 .tooltip .tooltip-image {
-	max-width: 250px;
+	max-width: var(--tooltip_width);
 }
 
 .tooltip .footer {
