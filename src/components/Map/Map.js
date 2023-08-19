@@ -22,8 +22,7 @@ export class Map extends Component {
 		lon: -122.952182,
 		maxZoom: 10,
 		minZoom: 6,
-		style: 'mapbox://styles/mapbox/basic-v8',
-		// style: 'mapbox://styles/mapbox/light-v11',
+		style: 'https://api.maptiler.com/maps/outdoor/style.json?key=3AYJpb5xomSFRoYtG7L4',
 		zoom: 9
 	}
 
